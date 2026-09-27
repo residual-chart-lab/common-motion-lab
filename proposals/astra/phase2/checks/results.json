@@ -1,0 +1,468 @@
+{
+  "arithmetic": "exact integers; no random samples",
+  "state_table": [
+    {
+      "state": [
+        0,
+        0
+      ],
+      "output": 0,
+      "selected_action": 0,
+      "next_state": [
+        0,
+        0
+      ]
+    },
+    {
+      "state": [
+        0,
+        1
+      ],
+      "output": 0,
+      "selected_action": 1,
+      "next_state": [
+        1,
+        0
+      ]
+    },
+    {
+      "state": [
+        1,
+        0
+      ],
+      "output": 0,
+      "selected_action": 0,
+      "next_state": [
+        1,
+        1
+      ]
+    },
+    {
+      "state": [
+        1,
+        1
+      ],
+      "output": 0,
+      "selected_action": 1,
+      "next_state": [
+        2,
+        1
+      ]
+    },
+    {
+      "state": [
+        2,
+        0
+      ],
+      "output": 1,
+      "selected_action": 0,
+      "next_state": [
+        2,
+        0
+      ]
+    },
+    {
+      "state": [
+        2,
+        1
+      ],
+      "output": 1,
+      "selected_action": 1,
+      "next_state": [
+        0,
+        1
+      ]
+    }
+  ],
+  "E_H_pair": [
+    {
+      "t": 0,
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        1,
+        0
+      ],
+      "outputs": [
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        0
+      ],
+      "difference": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 1,
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        1,
+        1
+      ],
+      "outputs": [
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        1
+      ],
+      "difference": [
+        1,
+        1
+      ]
+    },
+    {
+      "t": 2,
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        2,
+        1
+      ],
+      "outputs": [
+        0,
+        1
+      ],
+      "actions": [
+        0,
+        1
+      ],
+      "difference": [
+        2,
+        1
+      ]
+    },
+    {
+      "t": 3,
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1
+      ],
+      "outputs": [
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        1
+      ],
+      "difference": [
+        0,
+        1
+      ]
+    },
+    {
+      "t": 4,
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        1,
+        0
+      ],
+      "outputs": [
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        0
+      ],
+      "difference": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 5,
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        1,
+        1
+      ],
+      "outputs": [
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        1
+      ],
+      "difference": [
+        1,
+        1
+      ]
+    },
+    {
+      "t": 6,
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        2,
+        1
+      ],
+      "outputs": [
+        0,
+        1
+      ],
+      "actions": [
+        0,
+        1
+      ],
+      "difference": [
+        2,
+        1
+      ]
+    },
+    {
+      "t": 7,
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1
+      ],
+      "outputs": [
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        1
+      ],
+      "difference": [
+        0,
+        1
+      ]
+    },
+    {
+      "t": 8,
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        1,
+        0
+      ],
+      "outputs": [
+        0,
+        0
+      ],
+      "actions": [
+        0,
+        0
+      ],
+      "difference": [
+        1,
+        0
+      ]
+    }
+  ],
+  "distinct_pairs_preserved_in_one_step": 30,
+  "history_identity": {
+    "all_local_cases": 6,
+    "cycles_per_initial_state_checked": 3,
+    "arbitrary_length": "by induction on the local identity"
+  },
+  "C0_controlled_projection": {
+    "one_step_cases": 12,
+    "paths": {
+      "alpha": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "beta": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "gamma": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    "scope": "controlled family, not closed-loop path freedom"
+  },
+  "R1_windows": {
+    "outputs_only": {
+      "class_counts_for_k_0_to_3": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "minimum_k": 3,
+      "partition_one_shorter": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ]
+      ]
+    },
+    "outputs_and_past_actions": {
+      "class_counts_for_k_0_to_3": [
+        2,
+        5,
+        6,
+        6
+      ],
+      "minimum_k": 2,
+      "partition_one_shorter": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ]
+      ]
+    }
+  },
+  "ablations": {
+    "remove_reference_write": "E fails",
+    "remove_reference_feedback": "F/G fail",
+    "drop_reference_from_state": "no well-defined object-only update"
+  },
+  "R2_input_extension": {
+    "pair": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "pause": "identity on full state; executed action 0",
+    "release_outputs": [
+      0,
+      1
+    ],
+    "scope": "external pause/release input, not autonomous six-state model"
+  },
+  "status": "PASS"
+}

@@ -1,13 +1,6 @@
-# Astra 独立第一稿
+# Astra 提案の案内
 
-状態：未着手。これは作業場所の雛形であり、モデルの提出ではない。
+- [Phase 1 固定第一稿](https://github.com/residual-chart-lab/common-motion-lab/blob/dff58bd808dcb54ca80c59a15da70aef13c23134/proposals/astra/model.md)：A–Dの三状態核、履歴への書き換え、等間隔帰還の四状態拡張。
+- [Phase 2 独立第二稿](phase2/README.md)：一ビットの参照が運動へ戻る六状態模型。E–H、R1/R2、削減試験。
 
-共通条件は [brief](../../brief/README.md) を参照する。第一稿固定までは、Solの新規案を参照せず構成する。
-
-## 提出時の構成
-
-- `model.md`：自然言語の説明、図、定義、導出、A–Dの結果、対応・未接続箇所。
-- `checks/`：必要な検算コード・再現手順・結果。
-- `FREEZE.md`：第一稿のコミットSHA、日付、読んだ資料、未解決点。
-
-検査項目を満たすように新しく置いた仮定は明示する。「最小候補」と「最小性の証明」を区別する。
+Phase 2は共通ブリーフ `318962b59fc4cf97aec5931fc8a6ce531a3f78bc` から構成し、SolのPhase 2新規案は参照していない。Phase 1の固定稿を書き換えるものではない。
