@@ -1,0 +1,192 @@
+{
+  "arithmetic": "exact integers; exhaustive finite enumeration",
+  "A_D": {
+    "passed": true,
+    "two_step_routes": [
+      {
+        "actions": [
+          -1,
+          -1
+        ],
+        "states": [
+          0,
+          2,
+          1
+        ],
+        "outputs": [
+          0,
+          0,
+          1
+        ],
+        "allowed": false
+      },
+      {
+        "actions": [
+          -1,
+          1
+        ],
+        "states": [
+          0,
+          2,
+          0
+        ],
+        "outputs": [
+          0,
+          0,
+          0
+        ],
+        "allowed": true
+      },
+      {
+        "actions": [
+          1,
+          -1
+        ],
+        "states": [
+          0,
+          1,
+          0
+        ],
+        "outputs": [
+          0,
+          1,
+          0
+        ],
+        "allowed": true
+      },
+      {
+        "actions": [
+          1,
+          1
+        ],
+        "states": [
+          0,
+          1,
+          2
+        ],
+        "outputs": [
+          0,
+          1,
+          0
+        ],
+        "allowed": true
+      }
+    ]
+  },
+  "first_returns": {
+    "0": [
+      2,
+      2
+    ],
+    "2": [
+      1,
+      0
+    ]
+  },
+  "difference_and_memory": {
+    "one_step_pair_cases": 18,
+    "controlled_recurrence_cases": 12,
+    "state_reconstruction_cases": 12,
+    "scope": "all local cases; identities compose to arbitrary finite trajectories"
+  },
+  "response_classes": {
+    "3_states_depth_0": [
+      [
+        0,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "3_states_depth_1": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "4_states_depth_1": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ]
+  },
+  "boundary_admissibility": {
+    "start_0_two_steps_left": [
+      -1,
+      1
+    ],
+    "state_0_one_step_left": [
+      -1
+    ],
+    "state_1_one_step_left": [
+      -1,
+      1
+    ],
+    "state_2_one_step_left": [
+      1
+    ]
+  },
+  "uniform_return_extension": {
+    "smaller_models": {
+      "1": {
+        "map_output_start_cases": 2,
+        "E_witnesses": 0
+      },
+      "2": {
+        "map_output_start_cases": 32,
+        "E_witnesses": 0
+      },
+      "3": {
+        "map_output_start_cases": 648,
+        "E_witnesses": 0
+      }
+    },
+    "4_state_positive_orbit": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      3,
+      0
+    ],
+    "outputs": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "three_step_constraint": {
+      "accepted": 4,
+      "rejected": 4
+    }
+  },
+  "exact_waveform_period_counterexample": {
+    "initial_states": 4,
+    "R_only_hidden_difference": "never detected; complete pair orbit checked",
+    "additional_probe": "detected in one step"
+  },
+  "status": "PASS"
+}
