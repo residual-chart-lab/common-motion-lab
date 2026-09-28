@@ -9,7 +9,29 @@
 - [model.md](model.md)：M0「三状態・制御環」。自然言語の説明、完全定義、A–D、差の追跡、語彙回収の条件、削減試験、未接続箇所。
 - [checks/exhaustive.py](checks/exhaustive.py)：三状態系を全列挙して A–D と終端拘束を検算。
 - [checks/RESULTS.md](checks/RESULTS.md)：検算内容と全長さ3操作列。
-- `FREEZE.md`：この後、第一稿固定SHAと未解決点を記録する。
+- [FREEZE.md](FREEZE.md)：第一稿固定SHA、未解決点、独立性の記録。
+
+## CMD 再記述
+
+- [model-cmd.md](model-cmd.md)：固定済み第一稿を Common Motion Diagram へコンパイルした派生記述。
+
+CMD版は第一稿を改稿しない。主語を「状態」から「同じ差の追跡」へ移し、
+
+```text
+不可視
+  ↓
+保持
+  ↓
+顕在化
+  ↓
+非同一帰還
+  ↓
+後続作用
+```
+
+を一本の追跡線として読む。
+
+元の状態・操作・読み取り・拘束、A–Dの判定、最小性の留保は変更しない。
 
 ## M0 の核
 
