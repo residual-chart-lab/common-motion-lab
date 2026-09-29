@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational",
+  "state_grid_count": 125,
+  "state_input_combinations": 3125,
+  "checks": [
+    "tangent is output-neutral",
+    "finite fixed-reference substitution preserves rho",
+    "output derivative and positive gain identity",
+    "ordinary error closure decreases squared error",
+    "same current display and result; different response",
+    "reference-response-reference loop in exact Taylor coefficients",
+    "instantaneous neutrality does not imply future neutrality",
+    "local free component is nontrivial"
+  ],
+  "right_reference_taylor_coefficients": [
+    "1",
+    "0",
+    "1/2",
+    "0",
+    "1/24"
+  ],
+  "not_verified": [
+    "future demand source or reverse causality",
+    "multiple complete paths satisfying fixed C",
+    "reference return relation",
+    "global difference identity",
+    "minimality or equivalence of original theories"
+  ]
+}

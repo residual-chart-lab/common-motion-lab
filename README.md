@@ -4,7 +4,9 @@
 
 研究開始：2026-09-26。各案の提出状況・固定版はそれぞれの案内を参照。
 
-この `proposal/astra-phase2` ブランチには、共通Phase 2ブリーフから構成した [Astraの独立第二稿](proposals/astra/phase2/README.md) を置く。SolのPhase 2案は未参照であり、二案の比較結果ではない。
+この `proposal/astra-minimal-contact` ブランチには、2026-09-29の意味の絞り直しを受けた [現在の接点 v0.1](proposals/astra/minimal-contact/README.md) を置く。要求に応じる局所則とその検算を構成した段階で、未来から要求が作用する接続は未構成。Solの骨格案をチャットで共有した後の提案であり、新たな独立盲検稿ではない。
+
+[Astraの独立第二稿](proposals/astra/phase2/README.md) は固定版として残す。
 
 ## 研究の問い
 
