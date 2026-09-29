@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "max_endpoint_difference": 8.409939411535561e-15,
+  "compared_variants": [
+    "coupled",
+    "axis_off",
+    "reference_frozen",
+    "readout_only",
+    "axis_reversed",
+    "exact_transport"
+  ],
+  "scope": "Numerical runtime equivalence; not visual browser QA"
+}

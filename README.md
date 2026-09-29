@@ -4,7 +4,9 @@
 
 研究開始：2026-09-26。各案の提出状況・固定版はそれぞれの案内を参照。
 
-この `proposal/astra-minimal-contact` ブランチには、2026-09-29の意味の絞り直しを受けた [現在の接点 v0.1](proposals/astra/minimal-contact/README.md) を置く。要求に応じる局所則とその検算を構成した段階で、未来から要求が作用する接続は未構成。Solの骨格案をチャットで共有した後の提案であり、新たな独立盲検稿ではない。
+この `proposal/astra-axis-prototype` ブランチには、2026-09-29の軸・スパイラル・連続した現在についての修正を受けた [実行可能な軸プロトタイプ P0](prototypes/axis-contact/README.md) を置く。操作画面、局所則、回路実装、介入比較を含む。軸に沿う尺度輸送は候補仮説であり、未来因果・フラクタル生成・学習効率は未証明。
+
+[旧・現在の接点 v0.1](proposals/astra/minimal-contact/README.md) は比較用に保持する。新案はチャットで共有されたSolの骨格とアキの修正を踏まえており、新たな独立盲検稿ではない。
 
 [Astraの独立第二稿](proposals/astra/phase2/README.md) は固定版として残す。
 
