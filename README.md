@@ -4,7 +4,9 @@
 
 研究開始：2026-09-26。各案の提出状況・固定版はそれぞれの案内を参照。
 
-この `proposal/astra-bc-contract` ブランチには、2026-10-01の [B_C接続の試験台 B1](prototypes/bc-bench/README.md) を置く。固定結果F=1、置換関係の輸送、表記に依存しない要求、成立を保って動く例と停止する例を検査する。B_C自体の作動機構は未構成。
+この `review/astra-bc-source-audit` ブランチには、2026-10-01の [B_C作用源監査](reviews/bc-source-audit-2026-10-01.md) を置く。B1の結果座標は運動部分から分離できるため、B_Cの実装候補としては不採用とし、比較用に保持する。B_C自体の作動機構は未構成。
+
+[B_C接続の試験台 B1](prototypes/bc-bench/README.md) は、成立と作動を取り違えないための反例と検査を含む。
 
 [実行可能な軸プロトタイプ P0](prototypes/axis-contact/README.md) は比較用に保持する。軸に沿う尺度輸送は候補仮説であり、未来因果・フラクタル生成・学習効率は未証明。[固定結果と意味の重力についての構成条件](brief/fixed-result-meaning-2026-10-01.md)を参照。
 
