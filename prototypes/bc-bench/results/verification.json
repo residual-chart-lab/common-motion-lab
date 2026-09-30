@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "result_condition": "F=a+r*b=1, imposed throughout the witness trajectory",
+  "same_delta_future_result_effects": [
+    0,
+    1
+  ],
+  "gauge_example_derivatives_at_result": [
+    1,
+    7,
+    0
+  ],
+  "constraint_derivative_max_error": 2.7755575615628914e-16,
+  "one_turn_reference_increment": 0.47123889803846897,
+  "one_turn_readout_max_difference": 2.4492935982947064e-16,
+  "initial_a_velocity": -0.0,
+  "a_velocity_after_one_turn": -0.5333293038182219,
+  "refinement_errors": [
+    1.0939132355503034e-07,
+    7.115547706604275e-09
+  ],
+  "runs": {
+    "moving_reference": {
+      "max_result_residual": 1.5916146178795998e-10,
+      "final_reference": 2.713413099199684,
+      "turns": 5.818182559817079,
+      "initial_velocity": [
+        -0.0,
+        1.0,
+        -0.0,
+        0.15
+      ],
+      "final_state": [
+        3.4682021188789185,
+        -0.9096300595141812,
+        0.41541925169913224,
+        2.713413099199684
+      ]
+    },
+    "reference_transport_off": {
+      "max_result_residual": 0.0,
+      "final_reference": 0.0,
+      "turns": 4.774648292358986,
+      "initial_velocity": [
+        -0.0,
+        1.0,
+        -0.0,
+        0.0
+      ],
+      "final_state": [
+        1.0,
+        -0.9880316244578939,
+        0.15425144741437666,
+        0.0
+      ]
+    },
+    "reference_feedback_off": {
+      "max_result_residual": 8.333478351829626e-11,
+      "final_reference": 2.2385696013698513,
+      "turns": 4.774648292358986,
+      "initial_velocity": [
+        -0.0,
+        1.0,
+        -0.0,
+        0.15
+      ],
+      "final_state": [
+        3.2117775596620763,
+        -0.9880316244578939,
+        0.15425144741437666,
+        2.2385696013698513
+      ]
+    },
+    "stationary_same_result": {
+      "max_result_residual": 0.0,
+      "final_reference": 0.0,
+      "turns": 0.0,
+      "initial_velocity": [
+        -0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "final_state": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "opposite_initial_phase": {
+      "max_result_residual": 1.591708986836693e-10,
+      "final_reference": 2.713413099199684,
+      "turns": 5.818182559817078,
+      "initial_velocity": [
+        0.0,
+        -1.0,
+        -0.0,
+        0.15
+      ],
+      "final_state": [
+        -1.4682021188789072,
+        0.9096300595141812,
+        -0.41541925169913224,
+        2.713413099199684
+      ]
+    }
+  },
+  "verdict": "comparison fixture passes its algebraic and numerical checks; B_C remains unconstructed",
+  "not_established": [
+    "future boundary causes current motion",
+    "a unique connection follows from F=1",
+    "the displayed return is the intended general reference return",
+    "irreversibility",
+    "learning or consciousness"
+  ]
+}
