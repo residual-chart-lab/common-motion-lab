@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "event_count": 4,
+  "phases": ["A", "B", "C", "D"],
+  "predecessor_inference": [
+    {
+      "target": 1,
+      "expected_predecessor": 0,
+      "inferred_predecessor": 0,
+      "potential": 0.0
+    },
+    {
+      "target": 2,
+      "expected_predecessor": 1,
+      "inferred_predecessor": 1,
+      "potential": 0.0
+    },
+    {
+      "target": 3,
+      "expected_predecessor": 2,
+      "inferred_predecessor": 2,
+      "potential": 0.0
+    }
+  ],
+  "pair_orientation": [
+    {
+      "pair": [0, 1],
+      "direction": [0, 1],
+      "forward_potential": 0.0,
+      "reverse_potential": 0.3757
+    },
+    {
+      "pair": [1, 2],
+      "direction": [1, 2],
+      "forward_potential": 0.0,
+      "reverse_potential": 0.7417907499999998
+    },
+    {
+      "pair": [2, 3],
+      "direction": [2, 3],
+      "forward_potential": 0.0,
+      "reverse_potential": 0.8316269418749999
+    }
+  ],
+  "handoff_root_same": true,
+  "fork_parent_ok": true,
+  "serialization_roundtrip": true,
+  "experience_resolution_per_second": 0.0010181861370023293,
+  "notes": [
+    "past reconstruction does not consult timestamps",
+    "phase labels are an external adapter in v0.1",
+    "the prototype records residual scars during actual forward operation",
+    "this is not a proof of spontaneous time orientation from an unordered world"
+  ]
+}
